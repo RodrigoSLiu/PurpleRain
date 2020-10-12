@@ -39,7 +39,7 @@ class Drop:
 
 	def show(self):
 		self.color = (138, 43, 226)
-		pygame.draw.line(window, self.color, (self.x, self.y), (self.x, self.y + self.len), self.width)
+		pygame.draw.line(window, self.color, (self.x, int(self.y)), (self.x, int(self.y + self.len)), self.width)
 
 
 
